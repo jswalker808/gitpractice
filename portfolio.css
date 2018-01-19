@@ -1,0 +1,57 @@
+body {
+    background-color: #42f4bf;
+}
+
+h2 {
+  color: #f47142;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #dddddd;
+    overflow: hidden;
+    width: auto;
+}
+
+.navBarLi {
+  display: inline;
+}
+
+.navBarA {
+  padding: 8px;
+  margin: 0;
+  color:#f47142;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
